@@ -1,6 +1,7 @@
 # **Marvel Movies**
 This is a dynamic platform for managing Marvel movies, allowing users to view, add, and manage their favorite Marvel movies. The site includes features for authenticated users to add movies, view all movies, and maintain a favorites list. It also includes detailed movie information and integrates with a backend for secure operations.
-
+# **live site**  
+https://marvel-movies-pro.netlify.app/
 # **Screenshot**  
 ![Marvel Movies Screenshot](https://i.ibb.co/9cXTvbN/Home-Marvel-Movies-01-04-2025-09-11-PM.png)
 
