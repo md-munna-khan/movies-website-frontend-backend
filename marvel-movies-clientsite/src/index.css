@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer utilities{
+    .specialGradient{
+        background:  #ce1720;
+        /* background: linear-gradient(to right, #534949, #050505); */
+       
+    }
+   
+}
+@layer utilities{
+    .specialtextGradient{
+        color: #123456; /* Define your custom color */
+        /* background: linear-gradient( #242524); */
+    }
+   
+}
