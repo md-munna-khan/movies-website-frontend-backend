@@ -7,7 +7,7 @@ This is an eco-friendly adventure website showcasing sustainable travel destinat
 Add a screenshot of the project:
 markdown
 Copy code
-![Project Screenshot](your-screenshot-url-here)
+https://i.ibb.co.com/9cXTvbN/Home-Marvel-Movies-01-04-2025-09-11-PM.png
 #3. Technology Stack:
 Mention the main technologies/frameworks used, e.g., React, Firebase, Tailwind CSS.
 #4. Key Features:
