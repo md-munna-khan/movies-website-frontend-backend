@@ -1,50 +1,72 @@
-#1. Project Overview:
-Briefly describe what the project is about.
-Example:
-This is an eco-friendly adventure website showcasing sustainable travel destinations. Users can explore adventures, book services, and manage their profiles.
+# **Marvel Movies**
+This is a dynamic platform for managing Marvel movies, allowing users to view, add, and manage their favorite Marvel movies. The site includes features for authenticated users to add movies, view all movies, and maintain a favorites list. It also includes detailed movie information and integrates with a backend for secure operations.
 
-#2. Screenshot (If Applicable):
-Add a screenshot of the project:
-markdown
-Copy code
-https://i.ibb.co.com/9cXTvbN/Home-Marvel-Movies-01-04-2025-09-11-PM.png
-#3. Technology Stack:
-Mention the main technologies/frameworks used, e.g., React, Firebase, Tailwind CSS.
-#4. Key Features:
-Highlight the primary features of the project.
-Example:
-User authentication with Firebase.
-Dynamic adventure cards using JSON data.
-Responsive design for all devices.
-Secure payment integration.
-#5. Dependencies:
-List the major dependencies used in the project.
-Example:
-markdown
-Copy code
+# **Screenshot**  
+![Marvel Movies Screenshot](https://i.ibb.co/9cXTvbN/Home-Marvel-Movies-01-04-2025-09-11-PM.png)
+
+# **Technology Stack**  
+- **Frontend**: React, React Router DOM, Tailwind CSS  
+- **Backend**: Node.js, Express.js  
+- **Database**: MongoDB  
+- **Authentication**: JWT  
+- **Styling**: Tailwind CSS  
+- **Rating**: react-simple-star-rating
+
+# **Key Features**
+- **User Authentication**: Secure login and registration with JWT.
+- **Add Movies**: Form for adding new movies, including poster, title, genre, duration, release year, rating, and summary.
+- **Movie Detail Page**: Display detailed information about each movie, including a star rating and an option to delete or add to favorites.
+- **Favorites Management**: Users can manage their favorite movies in a dedicated list.
+- **Responsive Design**: Optimized for mobile and desktop devices.
+- **Dynamic Movie Cards**: Display all movies dynamically with user-friendly layout.
+
+# **Dependencies**
 - React  
-- Axios  
 - React Router DOM  
-- Firebase  
+- Axios  
+- Express.js  
+- MongoDB  
+- JWT  
+- react-simple-star-rating  
 - Tailwind CSS  
-#6. How to Run Locally:
-Provide step-by-step instructions to run the project on a local machine:
-markdown
-Copy code
+- Dotenv
+
+# **How to Run Locally**  
 1. Clone the repository:  
-   `git clone https://github.com/your-repo-name.git`  
+   `git clone https://github.com/your-repo-name/marvel-movies.git`  
 2. Navigate to the project directory:  
-   `cd your-repo-name`  
+   `cd marvel-movies`  
 3. Install dependencies:  
    `npm install`  
 4. Start the development server:  
    `npm start`  
-7. Links:
-Add relevant links:
-Live Demo: [Link](your-live-link-here)
-Repository: [GitHub Repo](your-repo-link-here)
-Documentation (if applicable): [Documentation](your-docs-link-here)
-This structure ensures a clear, professional look and provides all the necessary information for viewers or collaborators.
+
+**Backend**  
+1. Navigate to the backend folder:  
+   `cd backend`  
+2. Install dependencies:  
+   `npm install`  
+3. Set up environment variables by creating a `.env` file with the following content:  
+   ```env  
+   MONGO_URI=<Your MongoDB Connection String>  
+   JWT_SECRET=<Your Secret Key>  
+   PORT=5000  
+Run the backend server:
+npm start
+Links
+Live Demo: Link
+Repository: GitHub Repo
+Documentation (if applicable): Documentation
+markdown
+Copy code
+
+This **README** provides a clear overview of the **Marvel Movies** project, detailing its features, dependencies, and instructions for setting it up locally. Be sure to replace the placeholders like `your-repo-name`, `your-live-link-here`, and `your-docs-link-here` with your actual links.
+
+
+
+
+
+
 
 
 
